@@ -1,0 +1,157 @@
+.page1-doante{
+    width: 100%;
+    height: 576px; 
+    background: var(--Green-tertiary, #EFF7F2); 
+}
+
+.main-title-donate{
+    width: 100%;
+    height: 576px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-donate{
+    width: 750px;
+    height: 576px;
+}
+
+.title-donate h1{
+    margin-top: 50px;
+    color: var(--Primary-text, #1D2130);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%
+}
+
+.title-donate h2{
+    margin-top: 20px;
+    color: var(--Secondary-text, #525560);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.title-donate a{
+    margin-top: 20px;
+    color: white;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    border-radius: 4px;
+    background: var(--Green-primary, #70C174);
+    backdrop-filter: blur(40px); 
+}
+
+.image-doante img{
+    width:400px;
+}
+
+.main-page2-donate{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.page2-donate{
+    width: 1100px;
+    padding: 20px;
+    display: flex;
+}
+
+.texts-left h1{
+    color: var(--b, #1D2130);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.texts-left h2{
+    text-align: justify;
+    margin-top: 20px;
+    color: var(--Secondary-text, #525560);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.texts-right{
+    width: 500px;
+}
+
+.top-texts-right{
+    display: flex;
+    justify-content: center;
+}
+
+.top-texts-right{
+    display: flex;
+    justify-content: center;
+}
+
+.top-texts-right .top1 , .top-texts-right .top2 , .top-texts-right .top3{
+    margin: 10px;
+}
+
+.top-texts-right .top1 h1, .top-texts-right .top2 h1, .top-texts-right .top3 h1{
+    color: var(--Secondary-text, #525560);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.texts-right h2{
+    color: var(--Secondary-text, #525560);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.main-page3-donate{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.page3-donate{
+    width: 1150px;
+    display: flex;
+    align-items: center;
+}
+
+.section1-page3-donate{
+    width: 480px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-page3-donate h1{
+    color: var(--b, #1D2130);  
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.section2-page3-donate h2 , .section3-page3-donate h2{
+    color: var(--Secondary-text, #525560);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
