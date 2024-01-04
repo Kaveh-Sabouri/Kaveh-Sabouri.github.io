@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kaveh Sabouri</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-color: #20242e;">
+  <nav class="navbar navbar-expand-lg navbar-light fixed" style="padding:20px; background-color: #0a0908;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html" style="font-weight: bold; font-size: 25px;">Kaveh Sabouri</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Articles</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+              Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="Finsweet/Home.html" style="color:black">Finsweet</a></li>
+              <li><a class="dropdown-item" href="Finsweet2/index.html" style="color:black">Finsweet 2</a></li>
+              <li><hr class="dropdown-divider" style="color:black"></li>
+              <li><a class="dropdown-item" href="#" style="color:black">Digikala (clone)</a></li>
+              <li><a class="dropdown-item" href="#" style="color:black">Banimode (clone)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color:grey">Courses</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">My Social Media</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <a href="https://www.linkedin.com/in/kaveh-sabouri-0bb6a1277/">Linked in</a><br>
+        <a href="https://dev.to/kavehsabouri">Dev to</a>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="wrapper container" id="page1">
+  <div class="typing-demo text-white">
+    WELCOME TO KAVEH SABOURI WEBSITE
+  </div>
+</div>
+
+<style>
+  .wrapper {
+    height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+.typing-demo {
+  width: 32ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 4vw;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.page2{
+  background-color: #ffbc42;
+  width: 100%;
+  height: 650px;
+}
+</style>
+</body>
+</html>
+
+
+
