@@ -60,6 +60,7 @@ nav{
     color: white;
     text-decoration: none;
     background-color: #1bb460;
+    margin-left: 10px;
 }
 
 .vorood{
@@ -140,13 +141,13 @@ img {vertical-align: middle;}
 
 
 .accordion {
-  background-color: #9fa09f;
+  background-color: #202528;
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 80%;
+  width: 100%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
@@ -158,7 +159,7 @@ img {vertical-align: middle;}
 
 .accordion:after {
   content: '\002B';
-  color: #777;
+  color: white;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -169,11 +170,62 @@ img {vertical-align: middle;}
 }
 
 .panel {
+  color: white;
   padding: 0 18px;
-  background-color: #9fa09f;
+  background-color: #202528;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  width: 80%;
-
+  width: 100%;
+  text-align: center;
 }
+
+
+
+.page2-images{
+  position: relative;
+  width: 50%;
+}
+
+
+.page2-images img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.page2-images:hover img {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.page2-images:hover .middle {
+  opacity: 1;
+}
+
+.textt{
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+/* reponsive */
+
