@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Filimo</title>
+</head>
+<body style="background-color: black;">
+    <div id="result" style="color: white;">
+        <p>Content of the result DIV box will be replaced by the server response</p>
+    </div>
+    <button type="button" onclick="displayFullName()">Show me API</button>
+
+
+
+    <script>
+        function displayFullName() {
+    // Creating the XMLHttpRequest object
+    let request = new XMLHttpRequest();
+
+    // Instantiating the request object
+    request.open("GET", "./data.json");
+
+    // Defining event listener for readystatechange event
+    request.onreadystatechange = function() {
+        // Check if the request is compete and was successful
+        if(this.readyState === 4 && this.status === 200) {
+            // Inserting the response from server into an HTML element
+            document.getElementById("result").innerHTML = this.responseText;
+        }
+    };
+
+    // Sending the request to the server
+    request.send();
+}
+    </script>
+</body>
+</html>

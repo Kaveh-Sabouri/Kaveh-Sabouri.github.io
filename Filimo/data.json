@@ -1,0 +1,13 @@
+{
+    "menu":[
+        {"id":1,"name":"فیلموتو","link":"https://google.com"},
+        {"id":2,"name":"فیلم","link":"https://google.com"},
+        {"id":3,"name":"سریال","link":"https://google.com"},
+        {"id":4,"name":"خارجی","link":"https://google.com"},
+        {"id":5,"name":"ایرانی","link":"https://google.com"},
+        {"id":6,"name":" مجموعه ها","link":"https://google.com"},
+        {"id":7,"name":"جستجو,","link":"https://google.com"},
+        {"id":8,"name":"فیلمو مدرسه","link":"https://google.com"}
+    ]
+}
+
